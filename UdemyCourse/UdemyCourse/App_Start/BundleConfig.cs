@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Mwika2019
+namespace UdemyCourse
 {
     public class BundleConfig
     {
@@ -21,13 +21,10 @@ namespace Mwika2019
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
-            bundles.Add(new ScriptBundle("~/bundles/jquery.dataTables").Include(
-                "~/Scripts/jquery.dataTables.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css",
-                      "~/Content/jquery.dataTables.min.css"));
+                      "~/Content/site.css"));
         }
     }
 }
